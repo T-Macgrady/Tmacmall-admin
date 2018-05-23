@@ -2,7 +2,7 @@
 * @Author: Lizh
 * @Date:   2018-05-20 23:06:56
 * @Last Modified by:   Lizh
-* @Last Modified time: 2018-05-21 13:30:18
+* @Last Modified time: 2018-05-23 01:33:32
 */
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
 const webpack           = require('webpack'); //to access built-in plugins
@@ -73,7 +73,7 @@ const config = {
         historyApiFallback: {
             index: '/dist/index.html'
         },
-        proxy: {
+        /*proxy: {
             '/manage': {
                 target: 'http://test.happymmall.com/',
                 changeOrigin: true
@@ -82,7 +82,7 @@ const config = {
                 target: 'http://test.happymmall.com/',
                 changeOrigin: true
             }
-        }
+        }*/
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
