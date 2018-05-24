@@ -4374,9 +4374,9 @@ raw-body@2.3.2:
     iconv-lite "0.4.19"
     unpipe "1.0.0"
 
-rc-pagination@1.14.0:
-  version "1.14.0"
-  resolved "http://registry.npm.taobao.org/rc-pagination/download/rc-pagination-1.14.0.tgz#c0f34901941b35d65365baf73a5237084042b97e"
+rc-pagination@1.15.1:
+  version "1.15.1"
+  resolved "http://registry.npm.taobao.org/rc-pagination/download/rc-pagination-1.15.1.tgz#fbf0f88f35d3b34e90bafc068b2bf03b5156ba5f"
   dependencies:
     babel-runtime "6.x"
     prop-types "^15.5.7"

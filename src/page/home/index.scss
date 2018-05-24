@@ -1,0 +1,34 @@
+/*
+* @Author: Lizh
+* @Date:   2018-05-24 19:31:38
+* @Last Modified by:   Lizh
+* @Last Modified time: 2018-05-24 20:03:08
+*/
+.color-box{
+    display: block;
+    height: 160px;
+    text-align: center;
+    padding: 20px 0;
+    opacity: .9;
+    transition: all .3s;
+    &:hover{
+        text-decoration: none;
+        color: #555;
+        opacity: 1;
+        transform: scale(1.08);
+    }
+    &:focus{
+        text-decoration: none;
+    }
+    .count{
+        font-size: 50px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .desc{
+        font-size: 18px;
+        .fa{
+            margin-right: 5px;
+        }
+    }
+}
