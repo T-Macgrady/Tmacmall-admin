@@ -1,13 +1,14 @@
 import React        from 'react';
 import { Link }     from 'react-router-dom';
 
-import Util        from 'util/mm.jsx'
+import PageTitle    from 'component/page-title/index.jsx';
+
+import Util         from 'util/mm.jsx'
 import Statistic    from 'service/statistic-service.jsx'
 
 const _mm           = new Util();
 const _statistic    = new Statistic();
 
-import PageTitle    from 'component/page-title/index.jsx';
 import './index.scss'
 
 class Home extends React.Component {

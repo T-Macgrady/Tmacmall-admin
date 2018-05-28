@@ -4,12 +4,13 @@
 * @Last Modified by:   Lizh
 * @Last Modified time: 2018-05-22 20:58:55
 */
-import React from 'react';
+import React 	from 'react';
 
 import './theme.css';
+import './index.scss';
 
-import NavTop from 'component/nav-top/index.jsx';
-import NavSide from 'component/nav-side/index.jsx';
+import NavTop 	from 'component/nav-top/index.jsx';
+import NavSide  from 'component/nav-side/index.jsx';
 
 class Layout extends React.Component{
 	constructor(props){

@@ -1,4 +1,4 @@
-import React        from 'react';
+import React          from 'react';
 import RcPagination   from 'rc-pagination';
 import 'rc-pagination/dist/rc-pagination.min.css';
 

@@ -5,14 +5,14 @@
 * @Last Modified time: 2018-05-21 11:19:52
 */
  
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React 		from 'react';
+import { Link } 	from 'react-router-dom';
 
 import Util from 'util/mm.jsx';
 import User         from 'service/user-service.jsx'
 
-const _mm = new Util();
-const _user = new User();
+const _mm 			= new Util();
+const _user 	    = new User();
 
 class NavTop extends React.Component{
 	constructor(props){

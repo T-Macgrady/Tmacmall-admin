@@ -1,9 +1,9 @@
-import React from 'react';
+import React 	from 'react';
 
-import Util from 'util/mm.jsx';
-import User from 'service/user-service.jsx';
+import Util 	from 'util/mm.jsx';
+import User 	from 'service/user-service.jsx';
 
-import './index.scss';
+import 			'./index.scss';
 
 const _mm    = new Util(),
 	_user  = new User();

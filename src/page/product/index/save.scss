@@ -1,0 +1,57 @@
+/*
+* @Author: Lizh
+* @Date:   2018-05-27 16:08:25
+* @Last Modified by:   Lizh
+* @Last Modified time: 2018-05-28 17:50:20
+*/
+.control-label{
+	float: right;
+}
+.form-control.cate-selet{
+	width: 188px;
+}
+$sub-img-size: 80px;
+.img-con{
+    position: relative;
+    width: $sub-img-size;
+    height: $sub-img-size;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    .img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .fa-close{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        height: $sub-img-size;
+        line-height: $sub-img-size;
+        cursor: pointer;
+        display: none;
+        font-size: 50px;
+        color: #aaa;
+        background: rgba(0,0,0,.2);
+    }
+    &:hover{
+        .fa-close{
+            display: block;
+        }
+    }
+}
+.form-control-static{
+    background: #fefefe;
+    padding-left: 10px;
+}
+.textarea{
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-right: 20px;
+}

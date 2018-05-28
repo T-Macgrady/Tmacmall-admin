@@ -6,7 +6,7 @@
 */
 
 import React from 'react';
-import { Link, NavLink }    from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 class NavSide extends React.Component{
 	render(){

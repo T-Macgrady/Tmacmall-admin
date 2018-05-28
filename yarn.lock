@@ -4882,7 +4882,7 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-simditor@2.3.6:
+simditor@^2.3.6:
   version "2.3.6"
   resolved "http://registry.npm.taobao.org/simditor/download/simditor-2.3.6.tgz#ba71edc3161fc438466c336c9c10052743403947"
   dependencies:
