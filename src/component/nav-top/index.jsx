@@ -34,7 +34,8 @@ class NavTop extends React.Component{
 		return (
 			<div className="navbar navbar-default top-navbar">
 	            <div className="navbar-header">
-	                <Link className="navbar-brand" to="/"><b>Tmac</b>mall</Link>
+	                <Link className="navbar-brand" to="/"><b>Tmac</b>mall </Link>
+	                <span>@lizhh</span>
 	            </div>
 	            <ul className="nav navbar-top-links navbar-right">
 	                <li className="dropdown">
