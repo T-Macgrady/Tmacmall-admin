@@ -2,7 +2,7 @@
  * @Author: Lizh
  * @Date:   2018-05-20 23:06:56
  * @Last Modified by:   Lizh
- * @Last Modified time: 2018-05-24 14:18:01
+ * @Last Modified time: 2018-05-29 10:22:50
  */
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
 const webpack = require('webpack'); //to access built-in plugins
@@ -72,11 +72,11 @@ const config = {
         },
         proxy: {
             '/manage': {
-                target: 'http://test.happymmall.com/',
+                target: 'http://admintest.happymmall.com',
                 changeOrigin: true
             },
             '/user/logout.do': {
-                target: 'http://test.happymmall.com/',
+                target: 'http://admintest.happymmall.com',
                 changeOrigin: true
             }
         }
