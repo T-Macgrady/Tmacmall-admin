@@ -28,6 +28,7 @@ class App extends React.Component{
 					<Route  	path='/product-category' component={ProductRouter}/>
 					<Route  	path='/order/index' component={Order}/>
 					<Route  	path='/order/detail/:orderNumber' component={OrderDetail}/>
+                    <Redirect   exact from="/index.html" to="/"/>
                     <Redirect   exact from="/user" to="/user/index"/>
                     <Redirect   exact from="/order" to="/order/index"/>
                     <Route      component={ErrorPage}/>
