@@ -2,7 +2,7 @@
  * @Author: Lizh
  * @Date:   2018-05-20 23:06:56
  * @Last Modified by:   Lizh
- * @Last Modified time: 2018-05-30 23:12:04
+ * @Last Modified time: 2018-05-31 14:44:21
  */
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
 const webpack = require('webpack'); //to access built-in plugins
@@ -15,7 +15,7 @@ const config = {
     entry: './src/app.jsx',
     output: {
         path: path.join(__dirname, 'dist'),
-        publicPath: WEBPACK_ENV === 'online' ? '//47.106.183.192/admin-fe/dist/' : 'http://localhost:8086/dist/',
+        publicPath: WEBPACK_ENV === 'online' ? '//47.106.183.192:8080/admin-fe/dist/' : 'http://localhost:8086/dist/',
         // publicPath  : '/dist/',
         filename: 'js/app.js'
     },
